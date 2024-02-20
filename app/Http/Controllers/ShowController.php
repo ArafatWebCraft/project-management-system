@@ -13,6 +13,6 @@ class ShowController extends Controller
 {
     public function show_details($id)
     {
-        $projects = DB::table()
+        $projects = DB::table('projects')->leftjoin()
     }
 }
